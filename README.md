@@ -1,6 +1,5 @@
 # aws-test-app2
 
-
 //run below commands to setup java 11 and code-deploy agent
 
 sudo yum update
