@@ -12,7 +12,8 @@ chmod +x ./install
 sudo ./install auto
 sudo yum install -y python-pip
 sudo pip install awscli
-sudo amazon-linux-extras install java-openjdk11
+//sudo amazon-linux-extras install java-openjdk11
+sudo yum install java-17-amazon-corretto
 
 //verify installation
 sudo service codedeploy-agent status
