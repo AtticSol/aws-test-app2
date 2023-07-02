@@ -1,1 +1,17 @@
+server:
+  port: 8080
 
+spring:
+  application:
+    name: aws-test-app2
+
+ribbon:
+  ServerListRefreshInterval: 1000
+
+endpoints:
+  health:
+    sensitive: false
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
